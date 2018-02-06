@@ -1,4 +1,6 @@
 package com.example.android.quiz;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -20,31 +22,25 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
     }
 
-    @Override
-    public boolean dispatchTouchEvent(MotionEvent ev) {
-        View view = getCurrentFocus ( );
-        if ( view != null && (ev.getAction ( ) == MotionEvent.ACTION_UP || ev.getAction ( ) == MotionEvent.ACTION_MOVE) && view instanceof EditText && !view.getClass ( ).getName ( ).startsWith ( "android.webkit." ) ) {
-            int scrcoords[] = new int[2];
-            view.getLocationOnScreen ( scrcoords );
-            float x = ev.getRawX ( ) + view.getLeft ( ) - scrcoords[0];
-            float y = ev.getRawY ( ) + view.getTop ( ) - scrcoords[1];
-            if ( x < view.getLeft ( ) || x > view.getRight ( ) || y < view.getTop ( ) || y > view.getBottom ( ) )
-                (( InputMethodManager ) this.getSystemService ( Context.INPUT_METHOD_SERVICE )).hideSoftInputFromWindow ( (this.getWindow ( ).getDecorView ( ).getApplicationWindowToken ( )), 0 );
-        }
-        return super.dispatchTouchEvent ( ev );
-    }
+
     /**
      * This method is called, when the Submit Answers button is clicked
      */
     public void submitAnswers(View view) {
         String name = getName();
-        String summaryMessage;
+        String summaryMessage ;
         summaryMessage = createSummary(name, calculateTotalScore());
         Toast.makeText(this, summaryMessage, Toast.LENGTH_LONG).show();
+        // Send email in email app
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:")); // only email apps should handle this
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Fun Architecture Quiz for" + name);
+        intent.putExtra(Intent.EXTRA_TEXT, summaryMessage);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
     }
 
     /**
