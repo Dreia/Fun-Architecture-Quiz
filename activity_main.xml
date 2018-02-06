@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/pad_bottom"
+            android:hint="@string/name"
+            android:inputType="textCapWords"
+            android:textColor="@color/text" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_bottom"
+            android:text="@string/question_1"
+            android:textAllCaps="true"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_question" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/one_q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/one_q1"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/two_q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/two_q1"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/three_q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/three_q1"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/four_q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/four_q1"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_bottom"
+            android:text="@string/question_2"
+            android:textAllCaps="true"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_question" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/one_q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/one_q2"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/two_q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/two_q2"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/three_q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/three_q2"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/four_q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/four_q2"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_bottom"
+            android:text="@string/question_3"
+            android:textAllCaps="true"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_question" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/one_q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/one_q3"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/two_q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/two_q3"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/three_q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/three_q3"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/four_q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/four_q3"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_bottom"
+            android:text="@string/question_4"
+            android:textAllCaps="true"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_question" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/one_q4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/one_q3"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/two_q4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/two_q3"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/three_q4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/three_q3"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/four_q4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/four_q3"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_bottom"
+            android:text="@string/question_5"
+            android:textAllCaps="true"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_question" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/one_q5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/one_q5"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/two_q5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/two_q5"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/three_q5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/three_q5"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/four_q5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/four_q5"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_bottom"
+            android:text="@string/question_6"
+            android:textAllCaps="true"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_question" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/one_q6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/one_q6"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/two_q6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/two_q6"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/three_q6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/three_q6"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/four_q6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/four_q6"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_bottom"
+            android:text="@string/question_7"
+            android:textAllCaps="true"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_question" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/one_q7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/one_q7"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/two_q7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/two_q7"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/three_q7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/three_q7"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/four_q7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/four_q7"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_bottom"
+            android:text="@string/question_8"
+            android:textAllCaps="true"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_question" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/one_q8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/one_q8"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/two_q8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/two_q8"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/three_q8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/three_q8"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/four_q8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/four_q8"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_bottom"
+            android:text="@string/question_9"
+            android:textAllCaps="true"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_question" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/one_q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/space_left"
+            android:text="@string/one_q9"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_checkbox" />
+
+        <RadioButton
+            android:id="@+id/two_q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/space_left"
+            android:text="@string/two_q9"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_checkbox" />
+
+        <RadioButton
+            android:id="@+id/three_q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/space_left"
+            android:text="@string/three_q9"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_checkbox" />
+
+        <RadioButton
+            android:id="@+id/four_q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:paddingLeft="@dimen/space_left"
+            android:text="@string/four_q9"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_checkbox" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_bottom"
+            android:text="@string/question_10"
+            android:textAllCaps="true"
+            android:textColor="@color/text"
+            android:textSize="@dimen/font_size_for_question" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/one_q10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/one_q10"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/two_q10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/two_q10"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+
+            <RadioButton
+                android:id="@+id/three_q10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/three_q10"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+            <RadioButton
+                android:id="@+id/four_q10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_left"
+                android:text="@string/four_q10"
+                android:textColor="@color/text"
+                android:textSize="@dimen/font_size_for_radio" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/space_left"
+            android:onClick="submitAnswers"
+            android:text="@string/submit_answers"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+</ScrollView>

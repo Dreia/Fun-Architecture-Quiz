@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Fun Architecture Quiz</string>
+
+    <!--Input user name-->
+    <string name="name">Name</string>
+
+    <!--Questions-->
+    <string name="question_1">1. What is the name for a decorative strip of wood across the top of a wall?</string>
+
+    <string name="question_2">2. What is the name for an architectural drawing of a buildings exterior?</string>
+
+    <string name="question_3">3. What is the name of Elvis Presley´s colonial-revival-style house in Memphis?</string>
+
+    <string name="question_4">4. Which type of building is designed to keep birds?</string>
+
+    <string name="question_5">5. What does "Beaux Arts" mean in French?</string>
+
+    <string name="question_6">6. What is the name for a window that sticks out on the outside of a house?</string>
+
+    <string name="question_7">7. Which part of a church is often made of stained glass?</string>
+
+    <string name="question_8">8. Which New York building was the tallest building in the world in 1940?</string>
+
+    <string name="question_9">9. His famous dramas are:</string>
+
+    <string name="question_10">10. What is the name of the building mentioned in the Bible that was supposed to reach heaven?.</string>
+
+    <!--Answers-->
+    <string name="one_q1">Sconce</string>
+
+    <string name="two_q1">Molding</string>
+
+    <string name="three_q1">Valance</string>
+
+    <string name="four_q1">Verandah</string>
+
+    <string name="one_q2">Floor Plan</string>
+
+    <string name="two_q2">Elevation</string>
+
+    <string name="three_q2">Facade</string>
+
+    <string name="four_q2">Landscape</string>
+
+    <string name="one_q3">The Elms</string>
+
+    <string name="two_q3">Hope House</string>
+
+    <string name="three_q3">Graceland</string>
+
+    <string name="four_q3">Heartbreak Hotel</string>
+
+    <string name="one_q4">Aviary</string>
+
+    <string name="two_q4">Barracks</string>
+
+    <string name="three_q4">Stable</string>
+
+    <string name="four_q4">Conservatory</string>
+
+    <string name="one_q5">Brittle Sculpture</string>
+
+    <string name="two_q5">Engagement Ring</string>
+
+    <string name="three_q5">Beautiful Architecture</string>
+
+    <string name="four_q5">Fine Arts</string>
+
+    <string name="one_q6">A Beach Window</string>
+
+    <string name="two_q6">A Bay Window</string>
+
+    <string name="three_q6">An Outlet Window</string>
+
+    <string name="four_q6">A Johnson Window</string>
+
+    <string name="one_q7">The Floor</string>
+
+    <string name="two_q7">The Altar</string>
+
+    <string name="three_q7">The Windows</string>
+
+    <string name="four_q7">The Doors</string>
+
+    <string name="one_q8">The Metropolitan Museum of Art</string>
+
+    <string name="two_q8">The Brooklyn Museum</string>
+
+    <string name="three_q8">The Flatiron Building</string>
+
+    <string name="four_q8">The Empire State Building</string>
+
+    <string name="one_q9">The Tower of Babel</string>
+
+    <string name="two_q9">The Temple</string>
+
+    <string name="three_q9">Pharaohs Palace</string>
+
+    <string name="four_q9">The Tabernacle</string>
+
+    <string name="one_q10">Factories</string>
+
+    <string name="two_q10">Homes</string>
+
+    <string name="three_q10">Railroad Stations</string>
+
+    <string name="four_q10">Libraries</string>
+
+    <!--Submit answers -->
+    <string name="submit_answers">Submit answers</string>
+
+</resources>
